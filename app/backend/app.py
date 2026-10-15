@@ -48,7 +48,7 @@ def add_product():
 
 @app.route('/products/<int:product_id>', methods=['DELETE'])
 def delete_product(product_id):
-    conn = get_db()
+    conn = get_db ()
     cur = conn.cursor()
     cur.execute('DELETE FROM products WHERE id = %s', (product_id,))
     conn.commit()
