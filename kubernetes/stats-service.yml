@@ -9,4 +9,4 @@ spec:
     app: stats         # must match the label in stats-deployment.yml
   ports:
     - port: 5000
-      targetPort: 5000
+      targetPort: 3000
