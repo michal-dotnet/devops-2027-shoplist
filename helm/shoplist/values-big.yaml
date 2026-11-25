@@ -1,0 +1,6 @@
+# ד5: סביבה "גדולה" - רק מה ששונה מ-values.yaml
+backend:
+  replicas: 3
+
+stats:
+  replicas: 2
